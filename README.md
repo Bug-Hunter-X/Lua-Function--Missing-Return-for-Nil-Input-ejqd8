@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Lua functions: forgetting to explicitly handle the case where the input is nil.  The `foo` function lacks a default return value if the input `a` is nil, leading to unexpected `nil` outputs. The solution provides a corrected function with explicit handling for nil inputs.
